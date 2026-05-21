@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Bienvenu — Betify FR</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./files1/popup.css">
+  <script src="./files1/popup.js" defer=""></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      PopupLander(); // only for lander.html
+    });
+  </script>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background: url("files1/img/des.png") no-repeat center center;
+      background-size: cover;
+    }
+
+    /* Mobile (max 600px) */
+    @media (max-width: 600px) {
+      body {
+        background: url("files1/img/mob.png") no-repeat center center;
+        background-size: cover;
+      }
+    }
+
+    /* Tablet (601px – 1024px) */
+    @media (min-width: 601px) and (max-width: 1024px) {
+      body {
+        background-image: url("files1/img/des.png");
+      }
+    }
+
+    /* Desktop (above 1024px) */
+    @media (min-width: 1025px) {
+      body {
+        background-image: url("files1/img/des.png");
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+  <section class="hero">
+    <h1 style="font-size: 5px;"> Bienvenu chez<br> Betify FR </h1>
+    <footer style="font-size: 5px;">
+      © 2025 Budget Trails FR — All rights reserved.
+    </footer>
+  </section>
+
+
+</section><div class="modal-backdrop" style="display: flex;">
+      <div class="modal" role="dialog" aria-modal="true" aria-label="Policy Notice">
+        <h3>Bienvenue chez Betify</h3>
+        <p>Bonus de bienvenue de 1000 € + 250 TG. Êtes-vous majeur(e) ?</p>
+        <div class="modal-actions">
+          <button class="btn" id="age-yes">Oui, accepter</button>
+          <button class="btn ghost" id="age-no">Fermer</button>
+        </div>
+      </div></div></body></html>
